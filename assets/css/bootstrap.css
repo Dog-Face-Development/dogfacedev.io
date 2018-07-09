@@ -267,8 +267,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -1174,7 +1174,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: inherit;
 }
@@ -1589,6 +1589,7 @@ pre code {
   margin-left: auto;
 }
 .row {
+  font-family: code_pro;
   margin-right: -15px;
   margin-left: -15px;
 }
