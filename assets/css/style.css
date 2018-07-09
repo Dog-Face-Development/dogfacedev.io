@@ -22,13 +22,19 @@ h2{
 	margin:  0;
 }
 
+.promo{
+    font-family: code_pro;
+	color: rgb(255, 55, 0);
+}
+
 h4 {
 	margin-bottom: 20px;
 	font-size: 16px;
 	font-weight: 700;
-	color: rgb(47, 147, 123);
+	color: #000000;
 }
 p{
+	font-family: titillium;
 	font-size: 13px;
 }
 
@@ -38,10 +44,20 @@ a {
 }
 a:hover,
 a:focus{
-	color: #2F937B;
+	color: rgb(255,55,0);
 	text-decoration: none;
 }
 
+#a-special { 
+	color: #000000;
+	transition: all 0.8;
+}
+
+#a-special:hover,
+#a-special:focus {
+	color: rgb(255,55,0);
+	text-decoration: none;
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -56,7 +72,7 @@ a:focus{
 
 /* Home Style */
 #tf-home{
-	background: url(../img/01.jpg);
+	background: url(../img/landingbg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -79,6 +95,7 @@ a:focus{
 .content{
 	padding: 15% 0 18% 0;
 	text-align: center;
+	font-family: code_pro;
 }
 /* Navigation */
 #tf-menu {
@@ -107,6 +124,7 @@ a:focus{
 #tf-menu.navbar-default .navbar-nav > li > a {
 	color: rgb(255,55,0);
 	text-transform: uppercase;
+	font-family: code_pro;
 	font-size: 15px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -135,9 +153,10 @@ a:focus{
 
 .media-body h4 {
 	margin-bottom: 20px;
+	font-family: code_pro;
 	font-size: 16px;
 	font-weight: 700;
-	color: rgb(47, 147, 123);
+	color: rgb(255, 55, 0);
 }
 
 #tf-portfolio{
@@ -147,11 +166,11 @@ a:focus{
 }
 
 .section-title hr{
-	border-color: rgb(47, 147, 123);
+	border-color: rgb(255, 55, 0);
 	width: 60px;
 }
 
-.section-title h2{ font-weight: 700;}
+.section-title h3{font-family: code_pro; font-weight: 700;}
 button.btn,
 a.btn {
 	margin: 15px 5px;
@@ -221,7 +240,7 @@ ul.cat.list-inline li a:hover{
 .nopadding{ padding:  0;}
 
 #tf-about{
-	background: url(../img/07.jpg);
+	background: url(../img/aboutbg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
@@ -235,8 +254,8 @@ ul.cat.list-inline li a:hover{
 	padding: 10% 0;
 }
 
-#tf-why-me{
-	background: url(../img/10.jpg);
+#tf-why-us{
+	background: url(../img/whyusbg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
@@ -244,16 +263,16 @@ ul.cat.list-inline li a:hover{
 	color: #222222;
 }
 
-#tf-why-me .overlay{
+#tf-why-us .overlay{
 	height: auto;
 	background-attachment: fixed;
 	padding: 5% 0;
 }
-ul.why-me li{
+ul.why-us li{
 	margin: 10px 0;
 }
 #tf-contact{
-	background: url(../img/08.jpg);
+	background: url(../img/contactbg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
